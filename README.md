@@ -11,3 +11,6 @@ Each row is represented by a bar plot, and each column corresponds to a bar. A f
 
 ## heatmap.py
 The sensor grid is displayed as a heatmap with colored squares. Each color represents "no touch," with brighter shades indicating higher electrical capacitance values. Black squares indicate "touch" events. The data is output in the terminal.
+
+## pygame.py
+The real-time visualization displays the sensor grid as squares. Green squares indicate "no touch," while red squares represent "touch." The data is also output in the terminal.
