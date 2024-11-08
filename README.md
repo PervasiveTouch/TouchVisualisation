@@ -8,3 +8,6 @@ This script allows you to test whether the sensor is connected correctly and the
 
 ## barplot.py
 Each row is represented by a bar plot, and each column corresponds to a bar. A filled bar indicates "untouched" status, while an empty bar represents "touched." This grid layout visualizes the sensor's status, with data displayed in the terminal.
+
+## heatmap.py
+The sensor grid is displayed as a heatmap with colored squares. Each color represents "no touch," with brighter shades indicating higher electrical capacitance values. Black squares indicate "touch" events. The data is output in the terminal.
